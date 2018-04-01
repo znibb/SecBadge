@@ -1,0 +1,23 @@
+Partlist exported from C:/Users/znibb/Dropbox/Eagle_7.6/projects/SecBadge/SecBadge.sch at 01/04/2018 13:42
+
+Part Value  Device                          Package                  Description          PROD_ID     SF_SKU    VALUE
+C1   18p    CAPACITOR1206                   1206                                                                     
+C2   18p    CAPACITOR1206                   1206                                                                     
+C3   1u     CAPACITOR1206                   1206                                                                     
+C4   0.1u   CAPACITOR1206                   1206                                                                     
+C5   1u     CAPACITOR1206                   1206                                                                     
+C6   10u    CAPACITOR1206                   1206                                                                     
+D1   RED    LED                             LED-1206                                                                 
+D2   GREEN  LED                             LED-1206                                                                 
+J1   USB_A  USB_A                           USB_A_MALE_THT           USB-A Connector                                 
+J2          AVR_ISP_PROG_3X2                3X2_NO_SILK              ISP Header                                      
+R1   10k    RESISTOR1206                    1206                                                                     
+R2   22     RESISTOR1206                    1206                                                                     
+R3   22     RESISTOR1206                    1206                                                                     
+R4   150    RESISTOR1206                    1206                                                                     
+R5   90     RESISTOR1206                    1206                                                                     
+S1   DIP-SW DIP-SW-4POSPHT                  DIP8                     4-Position DIP Switc                            
+S2          MOMENTARY-SWITCH-SPST-PTH-6.0MM TACTILE_SWITCH_PTH_6.0MM Momentary Switch (Pu  SWCH-08441 COM-00097      
+S3          MOMENTARY-SWITCH-SPST-PTH-6.0MM TACTILE_SWITCH_PTH_6.0MM Momentary Switch (Pu  SWCH-08441 COM-00097      
+U1   32U4   ATMEGA32U4TQFP-44               TQFP44                   Atmel MCU, 32KByte   IC-11161              32U4 
+Y1   16MHz  CRYSTALSMD-HC49UP               HC49UP                   Crystals (Generic)                              
