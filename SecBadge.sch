@@ -3738,8 +3738,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="S1" library="ZnibbLib" deviceset="DIP-SW-4POS" device="PHT" value="DIP-SW"/>
 <part name="D1" library="ZnibbLib" deviceset="LED" device="" value="RED"/>
 <part name="D2" library="ZnibbLib" deviceset="LED" device="" value="GREEN"/>
-<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
-<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value=""/>
+<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value="BUTTON_1"/>
+<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value="BUTTON_2"/>
 <part name="R4" library="ZnibbLib" deviceset="RESISTOR" device="1206" value="150"/>
 <part name="R5" library="ZnibbLib" deviceset="RESISTOR" device="1206" value="90"/>
 <part name="SUPPLY1" library="PowerSymbols" deviceset="5V" device=""/>
