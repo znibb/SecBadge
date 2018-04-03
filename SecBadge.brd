@@ -164,7 +164,7 @@
 Electronics</text>
 <text x="67.31" y="27.94" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
 <text x="67.31" y="20.32" size="1.016" layer="21" font="vector" ratio="15" align="center-left">2</text>
-<text x="5.08" y="3.81" size="1.778" layer="21" font="vector" ratio="15" align="center-left">BBS_CC
+<text x="5.08" y="3.81" size="1.778" layer="21" font="vector" ratio="15" align="center-left">BBHS_CC
 HB v1.0</text>
 <text x="34.29" y="34.29" size="1.016" layer="21" ratio="15" rot="R90" align="center-left">A5</text>
 <text x="36.83" y="34.29" size="1.016" layer="21" ratio="15" rot="R90" align="center-left">A4</text>
@@ -1107,7 +1107,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D1" library="ZnibbLib" package="LED-1206" value="RED" x="11.43" y="9.16" rot="R180"/>
 <element name="D2" library="ZnibbLib" package="LED-1206" value="GREEN" x="11.43" y="14.24" rot="R180"/>
 <element name="J2" library="ZnibbLib" package="3X2_NO_SILK" value="" x="27.94" y="12.7" rot="R90"/>
-<element name="R1" library="ZnibbLib" package="1206" value="10k" x="34.29" y="12.97" rot="R180"/>
+<element name="R1" library="ZnibbLib" package="1206" value="10k" x="35.56" y="12.97" rot="R180"/>
 <element name="R2" library="ZnibbLib" package="1206" value="22" x="12.7" y="24.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.303" y="24.4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="11.557" y="24.4" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -1174,8 +1174,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="42.05" y1="15.65" x2="40.64" y2="14.24" width="0.254" layer="1"/>
 <wire x1="31.88" y1="20.72" x2="24.13" y2="20.72" width="0.254" layer="1"/>
 <wire x1="24.13" y1="20.72" x2="22.86" y2="20.72" width="0.254" layer="1"/>
-<wire x1="40.64" y1="14.24" x2="36.96" y2="14.24" width="0.254" layer="1"/>
-<wire x1="36.96" y1="14.24" x2="35.69" y2="12.97" width="0.254" layer="1"/>
+<wire x1="40.64" y1="14.24" x2="38.23" y2="14.24" width="0.254" layer="1"/>
+<wire x1="38.23" y1="14.24" x2="36.96" y2="12.97" width="0.254" layer="1"/>
 <contactref element="J1" pad="VBUS"/>
 <wire x1="17.78" y1="20.72" x2="6.231" y2="20.72" width="0.254" layer="1"/>
 <wire x1="6.231" y1="20.72" x2="5.051" y2="21.9" width="0.254" layer="1"/>
@@ -1284,12 +1284,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J2" pad="RESET"/>
 <wire x1="41.25" y1="17.33" x2="41.25" y2="16.12" width="0.254" layer="1"/>
 <wire x1="41.25" y1="16.12" x2="40.64" y2="15.51" width="0.254" layer="1"/>
-<wire x1="40.64" y1="15.51" x2="34.56" y2="15.51" width="0.254" layer="1"/>
-<wire x1="34.56" y1="15.51" x2="33.02" y2="13.97" width="0.254" layer="1"/>
-<wire x1="33.02" y1="13.97" x2="33.02" y2="13.1" width="0.254" layer="1"/>
-<wire x1="33.02" y1="13.1" x2="32.89" y2="12.97" width="0.254" layer="1"/>
-<wire x1="32.89" y1="12.97" x2="32.02" y2="12.97" width="0.254" layer="1"/>
+<wire x1="40.64" y1="15.51" x2="35.83" y2="15.51" width="0.254" layer="1"/>
+<wire x1="34.16" y1="12.97" x2="32.02" y2="12.97" width="0.254" layer="1"/>
 <wire x1="32.02" y1="12.97" x2="30.48" y2="11.43" width="0.254" layer="1"/>
+<wire x1="35.83" y1="15.51" x2="34.16" y2="13.84" width="0.254" layer="1"/>
+<wire x1="34.16" y1="13.84" x2="34.16" y2="12.97" width="0.254" layer="1"/>
 </signal>
 <signal name="LED_RED">
 <contactref element="R4" pad="2"/>
