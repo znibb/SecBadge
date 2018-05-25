@@ -2,6 +2,8 @@
 Base sketch for the Bug Bounty Hunters Sweden Challenge Card.
 Button 1 turns on the green LED for a set amount of time, DIP1&2 doubles the on-time respectively.
 Button 2 turns on the red LED for a set amount of time, DIP3&4 doubles the on-time respectively.
+
+Known issue: Clock rollover after 49 days runtime will make LEDs turn on "for good", deal with it.
 */
 
 // DIP switches: 1-PD3, 2-PD2, 3-PD1, 4-PD0
@@ -10,7 +12,7 @@ Button 2 turns on the red LED for a set amount of time, DIP3&4 doubles the on-ti
 
 // For explanation of port manipulation see: https://www.arduino.cc/en/Reference/PortManipulation
 
-#include <Bounce2.h>
+#include <Bounce2.h>  // Used for bounce-free buttons
 
 // Bit masks for each feature
 #define DIP1 B00001000
@@ -38,8 +40,8 @@ const int baseLedOnTime = 1000;
 // Variables
 bool ledGreenState = false;
 bool ledRedState = false;
-int ledGreenOffTime = 0;
-int ledRedOffTime = 0;
+unsigned long ledGreenOffTime = 0;
+unsigned long ledRedOffTime = 0;
 
 void setup() {  
   // DIP switches
